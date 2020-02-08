@@ -7,7 +7,7 @@ The while will run n * n * n times so as n gets bigger, the operations increase 
 
 b) O(n log(n))
 Classic nested loop
-for loop runs "n" times, incrementing the index by 1 for each iteration through the loop. The while loop doubleds "j" every iteration, giving us the run time of O(n log (n))
+for loop runs "n" times, incrementing the index by 1 for each iteration through the loop. The while loop doubles "j" every iteration, giving us the run time of O(n log (n))
 
 c) O(n)
 Because it recurses upon itself, it is a loop, the reason is because bunnies increase the number of recursions increase which puts the recursive loop at O(n). (Despite the recursion, all the operations are done in constant time)
